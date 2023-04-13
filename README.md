@@ -1,4 +1,12 @@
-# CMPT 389 Project - Image Recolorization for Use in Creative Domains
+# CMPT 489 Project - Image Recolorization for Use in Creative Domains
+
+## Contents
+Supplementary scripts: scripts I used to test color extraction, create datasets, or create visualizers for certain models.
+
+Use PaletteNet: contains an adversarial and non-adversarial user implementation of the models i trained in pytorch. Instructions on how to use below.
+
+Use Photo Recoloring: contains everything needed to run my modified version of the photo recoloring algorithm. Instructions on how to use below.
+
 
 ## Installation
 Main model: if you wish to run the .py implementation, please run the following in your terminal/anaconda distribution
