@@ -23,5 +23,7 @@ The SSIM script I used was made by Nathancy, found here: https://stackoverflow.c
 Thank you for the public post.
 
 This project would not have been possible without the use/accessibility of the following models:
+
 My main model is a modified version of Palettenet: https://github.com/yongzx/PaletteNet-PyTorch
+
 My baseline is a slightly modified version of palette-based Photo Recoloring: https://github.com/b-z/photo_recoloring
