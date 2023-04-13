@@ -1,11 +1,5 @@
 # CMPT 389 Project - Image Recolorization for Use in Creative Domains
 
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
 ## Installation
 Main model: if you wish to run the .py implementation, please run the following in your terminal/anaconda distribution
 ```
@@ -16,15 +10,17 @@ pip install torch
 pip install torch-vision
 pip install tqdm
 ```
-the jupyter netbook implmentation should do this automatically.
-
 The baseline model is completely contained and requires no extra installation.
 
 ## Usage
-(figure this out in a bit, baseline model should be super easy)
+Main Model: Open a file explorer and navigate to the "Use Palettenet" folder. Open a terminal in the "Use Palettenet" folder. Drop any .jpg you like into the folder and rename it "image.jpg". Run the command "python PaletteNetUse.py" for the ablated model with no adversarial training (looks better) or run "python PaletteNetUseAdv.py" to try the model with adversarial training.
+You will be greeted by 4 color pickers in succession, each color you pick represents a colour in your 4-color palette. The new file will then save as "pict256.png" after all of the pyplot figures are closed.
+
+Baseline Model: Open a file explorer and navigate to the "Use Photo Recoloring" folder. Open the "Index.html" file with a web browser such as chrome, and follow the on screen instructions to add a photo. Clicking the circular coloured buttons at the bottom will allow you to change colors. When finished, click confirm and then wait for the image to generate.
 
 ## Authors and acknowledgment
-This project would not have been possible without the use/accessibility of the following models:
+The SSIM script I used was found here: https://stackoverflow.com/questions/71567315/how-to-get-the-ssim-comparison-score-between-two-images
 
+This project would not have been possible without the use/accessibility of the following models:
 My main model is a modified version of Palettenet: https://github.com/yongzx/PaletteNet-PyTorch
 My baseline is a slightly modified version of palette-based Photo Recoloring: https://github.com/b-z/photo_recoloring
