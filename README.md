@@ -1,7 +1,7 @@
 # CMPT 489 Project - Image Recolorization for Use in Creative Domains
 
 ## Contents
-Supplementary scripts: scripts I used to test color extraction, create datasets, or create visualizers for certain models.
+Supplementary scripts: scripts I used to test color extraction, create datasets, train my main model, or create visualizers for certain models. Also includes all recorded TensorBoard data from my hyperparameter experiments.
 
 Use PaletteNet: contains an adversarial and non-adversarial user implementation of the models i trained in pytorch. Instructions on how to use below.
 
